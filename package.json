@@ -1,0 +1,12 @@
+{
+  "name": "jlpl-portal",
+  "version": "1.0.0",
+  "description": "Operations and maintenance portal for GAIL's Jamnagar–Loni LPG Pipeline",
+  "private": true,
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node server.js",
+    "backup": "node backup.js",
+    "demo": "node build-demo.js"
+  }
+}
